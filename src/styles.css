@@ -1,0 +1,24 @@
+/* src/styles.css */
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
